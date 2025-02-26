@@ -1,0 +1,26 @@
+git init
+
+git status
+
+git reset(for removing any file from statging area)
+
+git commit -m "commit msg" <file name>
+
+git remote add origin <your-repo-url>
+
+
+
+git push -u origin main
+it does the following:
+
+1️⃣ git push → Pushes the committed changes from your local repository to a remote repository (e.g., GitHub).
+2️⃣ origin → This is the name of the remote repository (default name for GitHub when you clone or link a repo).
+3️⃣ main → This specifies the branch you are pushing (default branch in newer Git setups).
+4️⃣ -u (or --set-upstream) → This sets origin main as the default upstream branch for future git push and git pull commands.
+
+
+git branch -M main
+This renames the current branch to main.
+
+Older Git versions used master as the default branch.
+-M (force move) ensures the branch is renamed even if main already exists.
