@@ -1,0 +1,31 @@
+
+a:hover{
+color:white ;
+
+}
+figcaption{
+    text-align:left;
+}
+footer{
+    background-color: grey;
+    padding:10px 50px 20px; /* space within an element */
+    margin: 10px 50px 20px;
+}
+header{
+ background-color: grey;
+  padding:10px 50px 20px; /* space within an element */
+  margin: 10px 50px 20px;
+}
+body{
+background-color: antiquewhite;
+padding:10px 50px 20px; /* space within an element */
+margin: 10px 50px 20px;
+}
+
+img {
+    margin: 10px 50px 20px; 
+}
+h2{
+text-align: center;
+color:grey;
+}
