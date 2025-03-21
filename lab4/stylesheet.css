@@ -1,0 +1,190 @@
+/* background-color: rgb(245, 188, 114);  prim col */
+/* rgb(241, 228, 211);  sec color */
+/*  background-color: rgb(252, 209, 152);  third color*/
+/* 4th color  background-color: rgb(200, 163, 117); */
+/* margin:5%;
+padding:20px;
+text align */
+:root {
+    --color-main: rgb(245, 188, 114);
+    --color-primary:rgb(241, 228, 211);  
+    --color-secondary: rgb(252, 209, 152); 
+    --tnf-border:3px solid rgb(245, 188, 114);
+    --tnf-background-color:  rgb(241, 228, 211);
+    --content-text-margin-left:2%;
+    --content-text-margin-right:2%;
+    --padding:20px;
+    --margin:5%;
+    --border-coll:collapse;
+ }
+
+#headerdiv p {
+
+    margin:2% auto 2% auto; 
+    border:var(--tnf-border);
+    height:50px ;
+    background-color: var(--tnf-background-color)
+ }
+ #webname img{
+    margin:auto 10px auto 1%;
+    margin-left: 1%; 
+    margin-right: 6px;
+    
+    }
+ 
+ #webname{
+    margin-left: (--content-text-margin-left);
+ font-size: XX-large;
+ font-family:"Freckle Face","Comic Sans MS";
+ font-style:cursive ;
+
+ }
+ 
+ #headerdiv img{
+    border:1em ;
+    border-radius:20%;
+     }
+ 
+  nav ul{
+       border:var(--tnf-border);
+       border-radius:var(--tnf-border-radius);
+       background-color:var(--tnf-background-color);
+    
+     }
+ 
+ a:hover {
+    color:rgb(255, 162, 39);
+  }
+
+ 
+
+
+
+/* table styling */
+
+table{
+ border-collapse: var(--border-coll); 
+ margin: 5% auto 5% 20%;
+
+}
+
+table caption{
+text-transform: capitalize;
+font-weight:bolder;
+padding:var(--padding);
+border:var(--tnf-border);
+background-color: var(--tnf-background-color);
+}
+
+#secheader th{
+    background-color: var(--color-secondary);
+}
+
+
+th,td{
+border:2px solid var(--color-primary);  
+padding:10px;
+}
+
+th{
+    background-color: var(--color-main);
+    
+}
+
+td{
+    padding:10px;
+}
+    
+#srno,#currsem {
+width: 1px;
+}  
+
+.gpa{
+    background-color: var(--color-primary);
+    width: 2px;
+}
+
+#cgpa{
+    
+    background-color:rgb(200, 163, 117);
+}
+
+    tr:hover{
+    
+    background-color:rgb(153, 147, 147); ;
+    
+    }
+    
+    tfoot td[colspan]{
+text-align: center;
+background-color:var(--tnf-background-color);
+}
+
+    
+    
+
+
+/* From styling from here */
+form{
+margin:auto 5% auto 5%;
+ background-color:var(--tnf-background-color); 
+}
+
+.formsec{
+
+   background-color: var(--color-secondary);
+   margin:50px;
+   padding:var(--padding);
+
+}
+
+.markrow{
+    background-color: rgb(200, 163, 117);
+}
+.formsec:hover{
+    margin:10px; 
+}
+
+.formsec label{
+    font-size: large;   
+}
+
+#light-text{
+    font-size: xx-small; 
+
+}
+
+/* report section styling */
+#report-sec{
+    background-color: var(--color-primary);
+   padding:var(--padding);
+    margin:var(--margin);
+border:var(--tnf-border);
+
+}
+
+#report-sec p,ul{
+    word-spacing: 2px;
+    letter-spacing: 1px;  
+    padding-right: 2%;
+}
+   
+em{
+    font-weight:bolder;
+ }
+
+/* footer styling */
+footer{
+  
+    text-align: center;
+    background-color: var(--color-primary);
+    padding:var(--padding);
+     margin-top:var(--margin);
+ border:var(--tnf-border);
+}
+
+
+
+
+
+
